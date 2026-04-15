@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KPSS Hazırlık - Gizlilik Politikası</title>
+  <meta name="description" content="KPSS Hazırlık uygulaması gizlilik politikası" />
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1f2740;
+      --muted: #68708f;
+      --line: #dfe3f1;
+      --accent: #6f8cff;
+      --accent-soft: #eef2ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 28px 22px;
+      box-shadow: 0 10px 30px rgba(25, 39, 80, 0.05);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      font-size: 34px;
+      line-height: 1.15;
+      margin: 0 0 10px;
+      letter-spacing: -0.02em;
+    }
+
+    .updated {
+      color: var(--muted);
+      margin: 0 0 24px;
+      font-size: 15px;
+    }
+
+    h2 {
+      font-size: 21px;
+      margin: 28px 0 10px;
+      letter-spacing: -0.01em;
+    }
+
+    p, li {
+      font-size: 17px;
+      margin: 0 0 14px;
+      color: var(--text);
+    }
+
+    ul {
+      margin: 0 0 14px 22px;
+      padding: 0;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .footer {
+      margin-top: 24px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .wrap {
+        padding: 20px 14px 40px;
+      }
+
+      .card {
+        padding: 22px 16px;
+        border-radius: 16px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        font-size: 19px;
+      }
+
+      p, li {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <div class="badge">Gizlilik Politikası</div>
+      <h1>KPSS Hazırlık</h1>
+      <p class="updated"><strong>Son güncelleme:</strong> 15 Nisan 2026</p>
+
+      <p>
+        Bu Gizlilik Politikası, <strong>KPSS Hazırlık</strong> mobil uygulamasını kullanan
+        kullanıcıların gizliliğini korumak amacıyla hazırlanmıştır. Uygulamayı kullanarak,
+        bu politikada açıklanan uygulamaları okuduğunuzu ve anladığınızı kabul etmiş olursunuz.
+      </p>
+
+      <h2>1. Toplanan Veriler</h2>
+      <p>
+        KPSS Hazırlık uygulaması, kullanıcıdan hesap oluşturmasını istemez ve doğrudan
+        kimlik tespiti yapabilecek kişisel verileri toplamayı amaçlamaz.
+      </p>
+      <p>
+        Uygulama kullanımı sırasında aşağıdaki uygulama içi bilgiler cihaz üzerinde yerel
+        olarak saklanabilir:
+      </p>
+      <ul>
+        <li>Çözülen sorular ve soru ilerleme bilgileri</li>
+        <li>Doğru / yanlış istatistikleri</li>
+        <li>Ezber kartı çalışma durumu</li>
+        <li>Kaydedilen sorular</li>
+        <li>Kullanıcının eklediği kişisel notlar</li>
+        <li>Tema tercihi ve benzeri uygulama ayarları</li>
+      </ul>
+
+      <h2>2. Verilerin Kullanım Amacı</h2>
+      <p>Yerel olarak tutulan bu bilgiler yalnızca aşağıdaki amaçlarla kullanılır:</p>
+      <ul>
+        <li>Kullanıcıya ilerleme takibi sunmak</li>
+        <li>Çalışma deneyimini kişiselleştirmek</li>
+        <li>Kaydedilen sorular ve notlar gibi özellikleri çalıştırmak</li>
+        <li>Uygulama ayarlarını korumak</li>
+      </ul>
+
+      <h2>3. Verilerin Saklanması</h2>
+      <p>
+        KPSS Hazırlık uygulamasında tutulan veriler, aksi belirtilmediği sürece kullanıcının
+        kendi cihazında yerel olarak saklanır. Bu veriler uzak bir sunucuya otomatik olarak
+        gönderilmez.
+      </p>
+
+      <h2>4. Üçüncü Taraf Hizmetler</h2>
+      <p>
+        Uygulama, mevcut sürümünde kullanıcı verilerini toplamak veya paylaşmak amacıyla harici
+        hesap sistemi kullanmaz.
+      </p>
+      <p>
+        Eğer ileride analiz, hata raporlama, reklam, bulut yedekleme veya giriş sistemi gibi
+        üçüncü taraf hizmetler eklenirse, bu politika buna uygun şekilde güncellenecektir.
+      </p>
+
+      <h2>5. Veri Paylaşımı</h2>
+      <p>
+        Uygulama içerisinde yerel olarak tutulan kullanıcı verileri, kullanıcıdan açık bir onay
+        alınmadıkça üçüncü kişilerle satılmaz, kiralanmaz veya paylaşılmaz.
+      </p>
+
+      <h2>6. Çocukların Gizliliği</h2>
+      <p>
+        KPSS Hazırlık uygulaması, genel olarak <strong>13 yaş ve üzeri</strong> kullanıcılar için
+        tasarlanmıştır. Uygulama, bilerek çocuklardan kişisel veri toplamaz.
+      </p>
+
+      <h2>7. Kullanıcı Kontrolü</h2>
+      <p>Kullanıcı, uygulama içerisinde tutulan yerel veriler üzerinde çeşitli kontrol haklarına sahiptir. Örneğin:</p>
+      <ul>
+        <li>Kaydedilen soruları kaldırabilir</li>
+        <li>Kendi notlarını düzenleyebilir veya silebilir</li>
+        <li>Uygulamayı kaldırarak yerel verilerin büyük kısmını cihazından kaldırabilir</li>
+      </ul>
+
+      <h2>8. Güvenlik</h2>
+      <p>
+        Kullanıcı verilerinin güvenliği önemsenmektedir. Ancak internet üzerinden veri iletimi
+        veya elektronik depolama yöntemlerinin hiçbirinin yüzde yüz güvenli olduğu garanti
+        edilemez. Bu nedenle makul teknik ve idari önlemler alınsa da mutlak güvenlik taahhüt
+        edilemez.
+      </p>
+
+      <h2>9. Politika Değişiklikleri</h2>
+      <p>
+        Bu Gizlilik Politikası zaman zaman güncellenebilir. Güncel sürüm her zaman bu sayfada
+        yayınlanır. Politikanın üst kısmındaki “Son güncelleme” tarihi, en son değişikliğin
+        yapıldığı tarihi gösterir.
+      </p>
+
+      <h2>10. İletişim</h2>
+      <p>
+        Gizlilik Politikası ile ilgili sorularınız için aşağıdaki iletişim adresinden
+        ulaşabilirsiniz:
+      </p>
+      <p>
+        <strong>E-posta:</strong>
+        <a href="mailto:seninmailin@example.com">seninmailin@example.com</a>
+      </p>
+
+      <div class="footer">
+        © 2026 KPSS Hazırlık. Tüm hakları saklıdır.
+      </div>
+    </section>
+  </main>
+</body>
+</html>
